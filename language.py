@@ -4,54 +4,9 @@ Version: 1.0.0
 Name: James Pinder (https://github.com/3NiGMa404)
 Date: 2020-07-15
 """
-import string
 from numpy import loadtxt
 from keras.models import Sequential
 from keras.layers import Dense
-import numpy as np
-'''englen=998
-italen=952
-print(englen,italen)
-newdata=open('words.csv','w+')
-data_lines=english+italian
-print(data_lines)
-for line in data_lines:
-    curline=''
-    for letter in line:
-        letternum=alph.index(letter)
-        curline=curline+(letternum*'0,')+'1'+((25-letternum)*',0,')
-    curline=curline+((20-len(line))*26*'0,')
-    if curline[-1]==',':
-        curline=curline[0:-1]
-    newlines.append(curline.replace(',,',',').replace('00','0,0').replace('01','0,1').replace('10','1,0').replace('11','1,1'))
-
-newlines2=[]
-for line in newlines[0:englen]:
-    newlines2.append(line+',1')
-for line in newlines[englen+1:englen+italen]:
-    newlines2.append(line+',0')
-op=open('words.csv','w+')
-op.write('\n'.join(newlines2))
-op.close()
-data_lines=open('test data.txt','w+').read().split('\n')
-for line in data_lines:
-    curline=''
-    for letter in line:
-        letternum=alph.index(letter)
-        curline=curline+(letternum*'0,')+'1'+((25-letternum)*',0,')
-    curline=curline+((20-len(line))*26*'0,')
-    if curline[-1]==',':
-        curline=curline[0:-1]
-    newlines.append(curline.replace(',,',',').replace('00','0,0').replace('01','0,1').replace('10','1,0').replace('11','1,1'))
-
-newlines2=[]
-for line in newlines[0:englen]:
-    newlines2.append(line+',1')
-for line in newlines[englen+1:englen+italen]:
-    newlines2.append(line+',0')
-op=open('testdata.csv','w+')
-op.write('\n'.join(newlines2))
-op.close()'''
 # Let's go!
 dataset = loadtxt('words.csv', delimiter=',')
 dataset2 = loadtxt('testdata.csv', delimiter=',')
