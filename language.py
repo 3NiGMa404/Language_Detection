@@ -1,4 +1,9 @@
-# first neural network with keras
+"""
+Script: language.py
+Version: 1.0.0
+Name: James Pinder (https://github.com/3NiGMa404)
+Date: 2020-07-15
+"""
 import string
 from numpy import loadtxt
 from keras.models import Sequential
