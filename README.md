@@ -1,3 +1,6 @@
+[![Generic badge](https://www.code-inspector.com/project/7200/status/svg)](https://www.code-inspector.com/project/7200/status/svg)
+[![Generic badge](https://www.code-inspector.com/project/7200/score/svg)](https://www.code-inspector.com/project/7200/score/svg)
+
 # Language_Detection
 Neural network to detect languages
 
